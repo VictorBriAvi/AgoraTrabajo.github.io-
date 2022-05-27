@@ -1,0 +1,55 @@
+.tarea__contenedor {
+
+    width: 90%;
+    min-height: 65px;
+    margin: 5px 0;
+    padding: 8px 15px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+
+
+}
+
+.tarea__texto {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+.contenedor__icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tarea-icono {
+    width: 25px;
+    height: 25px;
+
+    margin-left: 1.5rem;
+
+}
+
+.tarea-icono-check {
+
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+
+
+}
+
+.tarea-icono-check.completada {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    color: #5E00B8;
+    cursor: pointer;
+}
